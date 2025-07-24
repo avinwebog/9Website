@@ -42,25 +42,43 @@ body {
 }
 
 /* course dropdown menu */
-.mega-dropdown {
-  width: 400px;
-  padding: 15px;
-  background-color: #111 !important;
-  border-radius: 10px;
+/* Mega Dropdown General */
+.dropdown-mega .dropdown-menu {
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  border-radius: 0 0 10px 10px;
+  z-index: 1000;
+  padding: 2rem 1rem;
 }
 
-.mega-dropdown .dropdown-item {
-  color: white;
-  padding: 8px 12px;
+.dropdown-mega .dropdown-item {
+  color: #fff;
+  padding: 0.4rem 0;
+  transition: background 0.3s ease;
 }
 
-.mega-dropdown .dropdown-item:hover {
-  background-color: linear-gradient(
-    180deg,
-    #5e2e8e3e,
-    #8a0bc5f1 270.92%
-  ) !important;
-  border: 2px solid rgba(137, 0, 201, 0.911) !important;
+.dropdown-mega .dropdown-item:hover {
+  background-color: rgba(138, 11, 197, 0.2);
+  border-radius: 5px;
+  /* padding-left: 10px; */
+  color: wheat;
+}
+
+.dropdown-mega h6 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 991.98px) {
+  .dropdown-mega .dropdown-menu {
+    position: static !important;
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
 /* nav item hover */
