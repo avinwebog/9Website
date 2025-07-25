@@ -15,6 +15,13 @@ body {
   background-color: #111 !important;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 /* nav bar button of book demo  */
 .glow-button {
   background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%);
@@ -122,7 +129,7 @@ body {
 .hero {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(32, 0, 48, 0.8)),
     url('../images/herobg.jpg') no-repeat center center/cover;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,6 +138,7 @@ body {
   position: relative;
   margin-top: 0;
   padding: 40px 0;
+  
 }
 
 
@@ -152,7 +160,7 @@ body {
   position: absolute;
   width: 100%;
   opacity: 0;
-  padding: 20px;
+  /* padding: 20px; */
   animation: slideText 10s infinite;
 }
 
@@ -249,8 +257,9 @@ body {
 .language-slider {
   background: transparent;
   padding: 20px 0 10px;
-  /* border-top: 1px solid #2e2e2e; */
-  /* border-bottom: 1px solid #2e2e2e; */
+  border-top: 2px solid #7d1dea;
+  border-bottom: 2px solid #7d1dea;
+  background-color: #0c0c0c;
   overflow: hidden;
 }
 
@@ -272,7 +281,7 @@ body {
   max-width: 100px;
   height: auto;
   opacity: 0.8;
-  /* filter: brightness(0) invert(1); */
+  filter: opacity(0.7);
   /* white logo effect */
   transition: transform 0.3s;
 }
@@ -301,4 +310,15 @@ body {
   .slide img {
     max-width: 70px;
   }
+}
+
+/* about us */
+
+      .about-us h2 {
+  font-weight: 700;
+  color: white;
+}
+
+.about-us img {
+  border: 5px solid #9417e8;
 }
