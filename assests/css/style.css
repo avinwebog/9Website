@@ -322,3 +322,142 @@ nav {
 .about-us img {
   border: 5px solid #9417e8;
 }
+
+     /* Get Train Section  */
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 40px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .highlight {
+            color: #ffffff;
+            background-color: #a64bf4;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card {
+            border-radius: 12px;
+            padding: 30px;
+            width: 350px;
+            background-color: #2c1b3a;
+            border: 1px solid #a64bf4;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .tag {
+            background-color: #a64bf4;
+            color: white;
+            padding: 4px 10px;
+            font-size: 14px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .card p {
+            margin: 10px 0 30px;
+            color: #dddddd;
+        }
+        .course-contain{
+            height: 400px; 
+            
+            width: 100%;
+            /* background-color: blue; */
+            margin-top: 20px !important;
+            
+        }
+        .course-contain >div{
+
+            margin: 10px 0 !important;
+            
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .buttons button {
+            flex: 1;
+            padding: 10px 10px;
+            border: 2px solid #ffffff;
+            background: transparent;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .buttons button:hover {
+            background-color: #a64bf4;
+            border-color: #a64bf4;
+        }
+
+        .cards-container .card:nth-child(1) {
+            background: linear-gradient(180deg, rgba(7, 186, 16, .15) 0%, rgba(7, 186, 16, 2%) 100%);
+            border: 1px solid rgba(7, 186, 16, .5);
+        }
+
+        .cards-container .card:nth-child(2) {
+            background: linear-gradient(180deg, rgba(255, 176, 23, .15) 0%, rgba(255, 176, 23, 2%) 100%);
+            border: 1px solid rgba(255, 176, 23, .5);
+        }
+
+        .cards-container .card:nth-child(3) {
+            background: linear-gradient(180deg, rgba(250, 11, 126, .15) 0%, rgba(250, 11, 126, 2%) 100%);
+            border: 1px solid rgba(250, 11, 126, .5);
+        }
+
+        .cards-container .card:nth-child(4) {
+            background: linear-gradient(180deg, rgba(0, 191, 203, .15) 0%, rgba(0, 191, 203, 2%) 100%);
+            border: 1px solid rgba(0, 191, 203, .5);
+        }
+
+        .cards-container .card:nth-child(5) {
+            background: linear-gradient(180deg, rgba(173, 1, 254, .15) 0%, rgba(173, 1, 254, 2%) 100%);
+            border: 1px solid rgba(173, 1, 254, .5);
+        }
+
+        .cards-container .card:nth-child(6) {
+            background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
+            border: 2px solid rgba(96, 180, 127, .5);
+        }
+
+        .cards-container .card:nth-child(7) {
+           background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
+            border: 2px solid rgba(96, 180, 127, .5);
+        }
+
+        .cards-container .card:nth-child(8) {
+          background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
+            border: 2px solid rgba(96, 180, 127, .5);
+        }
