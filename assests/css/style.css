@@ -22,6 +22,7 @@ nav {
   width: 100%;
   z-index: 999;
 }
+
 /* nav bar button of book demo  */
 .glow-button {
   background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%);
@@ -138,7 +139,7 @@ nav {
   position: relative;
   margin-top: 0;
   padding: 40px 0;
-  
+
 }
 
 
@@ -314,7 +315,7 @@ nav {
 
 /* about us */
 
-      .about-us h2 {
+.about-us h2 {
   font-weight: 700;
   color: white;
 }
@@ -323,142 +324,188 @@ nav {
   border: 5px solid #9417e8;
 }
 
-     /* Get Train Section  */
-        .section-title {
-            font-size: 28px;
-            font-weight: bold;
-            margin: 40px;
-            color: #ffffff;
-            text-align: center;
-        }
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: #ffffff;
+}
 
-        .highlight {
-            color: #ffffff;
-            background-color: #a64bf4;
-            padding: 4px 10px;
-            border-radius: 4px;
-        }
+.highlight {
+  background-color: #a64bf4;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
 
-        .cards-container {
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            gap: 30px;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
+.custom-card {
+  padding: 30px;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-        .card {
-            border-radius: 12px;
-            padding: 30px;
-            width: 350px;
-            background-color: #2c1b3a;
-            border: 1px solid #a64bf4;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
 
-        .price {
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
+.tag {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
 
-        .tag {
-            background-color: #a64bf4;
-            color: white;
-            padding: 4px 10px;
-            font-size: 14px;
-            border-radius: 4px;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
+.custom-card h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
 
-        .card h2 {
-            margin: 10px 0;
-            font-size: 24px;
-            color: #ffffff;
-        }
+.custom-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 
-        .card p {
-            margin: 10px 0 30px;
-            color: #dddddd;
-        }
-        .course-contain{
-            height: 400px; 
-            
-            width: 100%;
-            /* background-color: blue; */
-            margin-top: 20px !important;
-            
-        }
-        .course-contain >div{
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
-            margin: 10px 0 !important;
-            
-        }
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 
-        .buttons {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
+.buttons button:hover {
+  background-color: #fff;
+  color: #000;
+}
 
-        .buttons button {
-            flex: 1;
-            padding: 10px 10px;
-            border: 2px solid #ffffff;
-            background: transparent;
-            color: white;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
 
-        .buttons button:hover {
-            background-color: #a64bf4;
-            border-color: #a64bf4;
-        }
+.custom-card h2,
+.custom-card p,
+.custom-card .price {
+  color: white;
+}
 
-        .cards-container .card:nth-child(1) {
-            background: linear-gradient(180deg, rgba(7, 186, 16, .15) 0%, rgba(7, 186, 16, 2%) 100%);
-            border: 1px solid rgba(7, 186, 16, .5);
-        }
+/* .custom-card .buttons button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 4px;
+} */
 
-        .cards-container .card:nth-child(2) {
-            background: linear-gradient(180deg, rgba(255, 176, 23, .15) 0%, rgba(255, 176, 23, 2%) 100%);
-            border: 1px solid rgba(255, 176, 23, .5);
-        }
 
-        .cards-container .card:nth-child(3) {
-            background: linear-gradient(180deg, rgba(250, 11, 126, .15) 0%, rgba(250, 11, 126, 2%) 100%);
-            border: 1px solid rgba(250, 11, 126, .5);
-        }
+/* Gradient backgrounds */
+/* .python { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+.java { background: linear-gradient(135deg, #e52d27, #b31217); }
+.javascript { background: linear-gradient(135deg, #f7971e, #ffd200); }
+.webdev { background: linear-gradient(135deg, #1d976c, #93f9b9); }
+.cpp { background: linear-gradient(135deg, #4b6cb7, #182848); }
+.datasci { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); }
+.android { background: linear-gradient(135deg, #56ab2f, #a8e063); }
+.sql { background: linear-gradient(135deg, #283c86, #45a247); } */
+/* Python Card */
+.python, .java, .javascript, .webdev, .cpp, .datasci, .android, .sql, .cybersec {
+  background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%) !important;
+  border: 2px solid rgba(167, 28, 209, 0.5) !important;
+}
 
-        .cards-container .card:nth-child(4) {
-            background: linear-gradient(180deg, rgba(0, 191, 203, .15) 0%, rgba(0, 191, 203, 2%) 100%);
-            border: 1px solid rgba(0, 191, 203, .5);
-        }
+/* Java Card */
+.java {
+  background: linear-gradient(135deg, #e52d27, #e408c0);
+  border: 1px solid rgba(229, 45, 39, 0.6);
+}
 
-        .cards-container .card:nth-child(5) {
-            background: linear-gradient(180deg, rgba(173, 1, 254, .15) 0%, rgba(173, 1, 254, 2%) 100%);
-            border: 1px solid rgba(173, 1, 254, .5);
-        }
+/* JavaScript Card */
+.javascript {
+  background: linear-gradient(135deg, #f7971e, #02afff);
+  border: 1px solid rgba(247, 151, 30, 0.6);
+}
 
-        .cards-container .card:nth-child(6) {
-            background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
-            border: 2px solid rgba(96, 180, 127, .5);
-        }
+/* Web Development Card */
+.webdev {
+  background: linear-gradient(135deg, #1d976c, #93f9b9);
+  border: 1px solid rgba(29, 151, 108, 0.6);
+}
 
-        .cards-container .card:nth-child(7) {
-           background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
-            border: 2px solid rgba(96, 180, 127, .5);
-        }
+/* C++ Card */
+.cpp {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  border: 1px solid rgba(75, 108, 183, 0.6);
+}
 
-        .cards-container .card:nth-child(8) {
-          background: linear-gradient(180deg, #307a7a0d, #60b47f4d 270.92%);
-            border: 2px solid rgba(96, 180, 127, .5);
-        }
+/* Data Science Card */
+.datasci {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border: 1px solid rgba(15, 32, 39, 0.6);
+}
+
+/* Android Card */
+.android {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+  border: 1px solid rgba(86, 171, 47, 0.6);
+}
+
+/* SQL Card */
+.sql {
+  background: linear-gradient(135deg, #283c86, #45a247);
+  border: 1px solid rgba(40, 60, 134, 0.6);
+}
+
+/* Cyber Security Card */
+.cybersec {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  border: 1px solid rgba(36, 59, 85, 0.6);
+}
+
+
+
+
+@media (max-width: 767px) {
+  .buttons button {
+    flex: 1 1 100%;
+  }
+}
+
+/* Event */
+
+.event-card {
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #0b0f19;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-content {
+  min-height: 250px;
+}
+
+.badge {
+  z-index: 10;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
