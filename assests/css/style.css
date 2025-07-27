@@ -211,9 +211,11 @@ nav {
   }
 }
 
+/* Hero Section Button  */
+
 .btn-glow {
-  background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%);
-  border: 2px solid rgba(167, 28, 209, 0.5) !important;
+  background: linear-gradient(180deg, #2517323e, #8a0bc519 270.92%);
+  border: 2px solid rgba(167, 28, 209, 0.132) !important;
   /* border: none; */
   color: white !important;
   padding: 10px 20px;
@@ -425,9 +427,14 @@ nav {
 .sql { background: linear-gradient(135deg, #283c86, #45a247); } */
 /* Python Card */
 .python, .java, .javascript, .webdev, .cpp, .datasci, .android, .sql, .cybersec {
+<<<<<<< HEAD
   /* background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%) !important; */
   background: linear-gradient(135deg, #1d976c, #93f9b9) !important;
   border: 2px solid rgba(167, 28, 209, 0.5) !important;
+=======
+  background: linear-gradient(180deg, #8e892e3e, #e1de0b4d 270.92%) !important;
+  border: 2px solid rgba(206, 209, 28, 0.5) !important;
+>>>>>>> 6b4e4e81c6bfe21eacaf677f4be6fd23e7b9da1c
 }
 
 /* Java Card */
