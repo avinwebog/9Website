@@ -129,7 +129,7 @@ nav {
 
 .hero {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(32, 0, 48, 0.8)),
-    url('../images/herobg.jpg') no-repeat center center/cover;
+    url('../images/gif/get-trained.gif') no-repeat center center/cover;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -326,6 +326,22 @@ nav {
   border: 5px solid #9417e8;
 }
 
+/* counting animation */
+.counter {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00ff91;
+  }
+
+  section {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  p {
+    font-size: 1rem;
+    color: white;
+  }
+
 .section-title {
   font-size: 28px;
   font-weight: bold;
@@ -405,6 +421,13 @@ nav {
 .custom-card .price {
   color: white;
 }
+.course-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
 
 /* .custom-card .buttons button {
     background-color: white;
@@ -427,14 +450,14 @@ nav {
 .sql { background: linear-gradient(135deg, #283c86, #45a247); } */
 /* Python Card */
 .python, .java, .javascript, .webdev, .cpp, .datasci, .android, .sql, .cybersec {
-<<<<<<< HEAD
+
   /* background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%) !important; */
   background: linear-gradient(135deg, #1d976c, #93f9b9) !important;
   border: 2px solid rgba(167, 28, 209, 0.5) !important;
-=======
+/* =======
   background: linear-gradient(180deg, #8e892e3e, #e1de0b4d 270.92%) !important;
   border: 2px solid rgba(206, 209, 28, 0.5) !important;
->>>>>>> 6b4e4e81c6bfe21eacaf677f4be6fd23e7b9da1c
+>>>>>>> 6b4e4e81c6bfe21eacaf677f4be6fd23e7b9da1c */
 }
 
 /* Java Card */
@@ -496,7 +519,7 @@ nav {
 
 /* Event */
 
-.event-card {
+/* .event-card {
   border: 1px solid #1f1f1f;
   border-radius: 10px;
   overflow: hidden;
@@ -516,4 +539,68 @@ nav {
   z-index: 10;
   font-size: 0.9rem;
   border-radius: 20px;
-}
+} */
+
+  .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .section-title span {
+      color: #30e177;
+    }
+
+    .section-subtitle {
+      color: #aaa;
+      font-size: 1rem;
+    }
+
+    .underline-title {
+      border-bottom: 3px solid #30e177;
+      margin-bottom: 1rem;
+    }
+
+    .event-card {
+      background-color: #0b0b1f;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      color: white;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .event-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(48, 225, 119, 0.2);
+    }
+
+    .event-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .event-meta i {
+      color: #30e177;
+      margin-right: 6px;
+    }
+
+    .badge-past {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #1f1f1f;
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 5px;
+    }
+
+    .view-link {
+      color: #30e177;
+      text-decoration: none;
+    }
+
+    .view-link:hover {
+      text-decoration: underline;
+    }
