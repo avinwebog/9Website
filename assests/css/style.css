@@ -425,7 +425,8 @@ nav {
 .sql { background: linear-gradient(135deg, #283c86, #45a247); } */
 /* Python Card */
 .python, .java, .javascript, .webdev, .cpp, .datasci, .android, .sql, .cybersec {
-  background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%) !important;
+  /* background: linear-gradient(180deg, #5e2e8e3e, #8a0bc54d 270.92%) !important; */
+  background: linear-gradient(135deg, #1d976c, #93f9b9) !important;
   border: 2px solid rgba(167, 28, 209, 0.5) !important;
 }
 
