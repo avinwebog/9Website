@@ -471,8 +471,8 @@ background: linear-gradient(180deg, #06fa023e, #03ff70cc 270.92%) !important;
 
 /* python */
 .python{
-background: linear-gradient(180deg, #faee023e, #035fffcc 270.92%) !important;
-  border: 2px solid rgba(221, 255, 0, 0.5) !important;}
+background: linear-gradient(180deg, #0227fa3e, #c8ff03cc 270.92%) !important;
+  border: 2px solid rgb(8, 105, 215) !important;}
 
 
 /* Java Card */
@@ -483,8 +483,8 @@ background: linear-gradient(180deg, #faee023e, #035fffcc 270.92%) !important;
 
 /* JavaScript Card */
 .javascript {
-  background: linear-gradient(180deg, #888e2e3e, #2d2d2c4d 270.92%) !important;
-  border: 2px solid rgba(203, 197, 8, 0.5) !important;
+  background: linear-gradient(180deg, #e0ef103e, #080808d8 270.92%) !important;
+  border: 2px solid rgba(203, 196, 8, 0.326) !important;
 }
 
 /* Web Development Card */
