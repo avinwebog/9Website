@@ -130,7 +130,7 @@ nav {
 .hero {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(32, 0, 48, 0.8)),
     url('../images/gif/get-trained.gif') no-repeat center center/cover;
-  min-height: 70vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,9 +260,9 @@ nav {
 .language-slider {
   background: transparent;
   padding: 20px 0 10px;
-  border-top: 2px solid #7d1dea;
+  /* border-top: 2px solid #7d1dea;
   border-bottom: 2px solid #7d1dea;
-  background-color: #0c0c0c;
+  background-color: #0c0c0c; */
   overflow: hidden;
 }
 
@@ -609,5 +609,5 @@ nav {
     /* footer */
 
     .footer{
-      background-color: #9417e8 !important;
+      background-color: #171617 !important;
     }
