@@ -604,3 +604,10 @@ nav {
     .view-link:hover {
       text-decoration: underline;
     }
+
+
+    /* footer */
+
+    .footer{
+      background-color: #9417e8 !important;
+    }
