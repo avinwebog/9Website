@@ -30,3 +30,45 @@
       sectionShown = true;
     }
   });
+
+
+  //Event Modal 
+  
+  const eventModal = document.getElementById('eventModal');
+
+  eventModal.addEventListener('show.bs.modal', function (event) {
+    const button = event.relatedTarget;
+
+    // Fetch values from button
+    const title = button.getAttribute('data-title');
+    const date = button.getAttribute('data-date');
+    const time = button.getAttribute('data-time');
+    const location = button.getAttribute('data-location');
+    const description = button.getAttribute('data-description');
+    const ppt = button.getAttribute('data-ppt');
+    const images = JSON.parse(button.getAttribute('data-images'));
+
+    // Update modal content
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalDate').textContent = date;
+    document.getElementById('modalTime').textContent = time;
+    document.getElementById('modalLocation').textContent = location;
+    document.getElementById('modalDescription').textContent = description;
+    document.getElementById('modalPPT').src = ppt;
+
+    // Load carousel images
+    const carouselInner = document.getElementById('carouselInner');
+    carouselInner.innerHTML = '';
+
+    images.forEach((src, index) => {
+      const item = document.createElement('div');
+      item.className = 'carousel-item' + (index === 0 ? ' active' : '');
+      item.innerHTML = `<img src="${src}" class="d-block w-100" style="max-height:400px; object-fit:cover;">`;
+      carouselInner.appendChild(item);
+    });
+  });
+
+  eventModal.addEventListener('hidden.bs.modal', () => {
+    document.getElementById('modalPPT').src = ''; // Stop PPT when closed
+  });
+
